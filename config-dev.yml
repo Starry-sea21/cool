@@ -1,7 +1,1 @@
-spring:
-  profiles:
-    active: dev
-
-# 日志文件配置
-#logging:
-#  config: classpath:logback-spring.xml
+dev
