@@ -1,0 +1,18 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com/Starry-sea21/cool.git
+          search-paths: cool
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
