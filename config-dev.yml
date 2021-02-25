@@ -1,4 +1,2 @@
-server:
-  port: 500 
 config:
   info: dev
